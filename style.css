@@ -45,9 +45,69 @@ p {
 .set-background {
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
+    background-size: 100%;
+
 }
 
+
 .set-font {
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    color: rgb(58, 62, 66);
+}
+
+.space-divide {
+    width: 33%;
+    margin-left: 7%;
+}
+
+.recipe-container {
+    margin-top: 10%;
+}
+
+.recipe-item {
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 1%;
+    padding-left: 3%;
+    padding-top: 2%;
+    border-radius: 8%;
+    box-shadow: 10px 10px 35px rgb(177, 175, 175);
+    text-align: justify;
+}
+
+.flexible-container img {
+    border: 5px 5px 5px 5px;
+    border-radius: 6%;
+    margin-top: 10px;
+    width: 90%;
+    align-items: center;
+
+}
+
+
+
+#Set-text-center {
+    text-align: center;
+    text-indent: 20px;
+
+}
+
+.set-paragraph {
+    padding-right: 70px;
+    font-size: 18px;
+}
+
+#align-the-text {
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 5%;
+
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 20px;
 }
