@@ -4,6 +4,7 @@ body {
 
 }
 
+
 h1 {
     font-size: 35px;
 }
@@ -26,11 +27,12 @@ p {
 .Width-divide {
     width: 50%;
     margin-left: 7%;
+    margin-top: 20px;
 
 }
 
 .Width-divide img {
-    width: 85%;
+    width: 100%;
 }
 
 .link-button {
@@ -141,4 +143,40 @@ footer h4 {
     margin: 0;
     color: snow;
     background-color: rgb(66, 75, 83);
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    background: rgb(141, 4, 38);
+    margin-top: 0;
+}
+
+.navbar ul {
+    margin-left: 280px;
+    padding-left: 30px;
+    float: center;
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0px 8px;
+    display: inline-block;
+    line-height: 80px;
+    padding-left: 5%;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px;
+    background-image: linear-gradient(rgb(209, 15, 80), rgb(121, 5, 39));
+}
+
+.navbar-item {
+    margin-bottom: 25px;
+    padding-bottom: 10px;
 }
